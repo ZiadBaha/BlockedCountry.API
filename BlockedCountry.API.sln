@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockedCountry.API", "BlockedCountry.API\BlockedCountry.API.csproj", "{DD57C8C5-E114-4B2B-A189-B003FD16963E}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockedCountry.Infrastructure", "BlockedCountry.Infrastructure\BlockedCountry.Infrastructure.csproj", "{1835C0D7-CD28-4CC6-BF62-D63FDAAB83D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockedCountry.Domain", "BlockedCountry.Domain\BlockedCountry.Domain.csproj", "{6C3B494E-6299-43A9-AB61-021A7AF70AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockedCountry.Tests", "BlockedCountry.Tests\BlockedCountry.Tests.csproj", "{2F328DCE-4085-43EE-88EF-86DFD26241E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6C3B494E-6299-43A9-AB61-021A7AF70AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C3B494E-6299-43A9-AB61-021A7AF70AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C3B494E-6299-43A9-AB61-021A7AF70AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F328DCE-4085-43EE-88EF-86DFD26241E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F328DCE-4085-43EE-88EF-86DFD26241E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F328DCE-4085-43EE-88EF-86DFD26241E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F328DCE-4085-43EE-88EF-86DFD26241E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
