@@ -20,7 +20,7 @@
 
             _logger.LogInformation($"[{DateTime.UtcNow}] {method} {path} from {ip} - UA: {userAgent}");
 
-            await _next(context); // Call the next middleware
+            await _next(context); 
         }
     }
 }

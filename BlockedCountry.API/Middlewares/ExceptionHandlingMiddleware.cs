@@ -18,7 +18,7 @@ namespace BlockedCountry.API.Middlewares
         {
             try
             {
-                await _next(context); // Continue the pipeline
+                await _next(context); 
             }
             catch (Exception ex)
             {
